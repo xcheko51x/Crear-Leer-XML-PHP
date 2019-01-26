@@ -4,7 +4,7 @@
 LeerXML();
 
 function LeerXML() {
-	$usuarios = simplexml_load_file("/Users/xcheko51x/Downloads/usuarios.xml");
+	$usuarios = simplexml_load_file("/Users/xcheko51x/Downloads/usuarios.xml"); // Ruta del archivo XML
 
 	foreach ($usuarios as $usuario) {
 		echo "ID: " . $usuario->ID . "<br>";
